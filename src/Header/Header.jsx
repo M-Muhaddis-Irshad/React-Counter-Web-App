@@ -1,16 +1,19 @@
+import React from 'react'
 import './Header.css'
-
 const Header = () => {
     return (
         <>
+            <div className='navHeading'>Header</div>
+
             <div className="logoNameCntnr">
-                <a href="">
+                {/* <a href="">
                     <img src="" alt="" />
-                </a>
+                </a> */}
                 <span className='logoName'>
                     Vite Counter App
                 </span>
             </div>
+
         </>
     )
 }
